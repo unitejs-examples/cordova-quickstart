@@ -1,4 +1,4 @@
-# UniteJS Examples - Cordvoa Quick Start
+# UniteJS Examples - Cordova Quick Start
 
 This should perform the following steps with travis:
 
