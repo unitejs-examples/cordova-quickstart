@@ -8,7 +8,6 @@ before_install:
   - unite configure --profile=ReactTypeScript --title="Cordova QuickStart" --packageName=unitejs-cordova-quickstart --outputDirectory=./
   - unite platform --operation=add --platformName=Cordova
   - cd www
-  - cordova telemetry off
 install:
   - npm install
 script: 
