@@ -14,14 +14,12 @@ install:
 script: 
   - gulp build || travis_terminate 1
   - gulp unit || travis_terminate 1
-#  - gulp e2e-install --drivers=chrome || travis_terminate 1
-#  - gulp e2e || travis_terminate 1
+  - gulp e2e-install --drivers=chrome || travis_terminate 1
+  - gulp e2e || travis_terminate 1
   - gulp build --buildConfiguration=prod || travis_terminate 1
-#  - gulp e2e || travis_terminate 1
+  - gulp e2e || travis_terminate 1
   - gulp platform-cordova-dev --buildConfiguration=prod || travis_terminate 1
   - gulp platform-cordova-theme --buildConfiguration=prod || travis_terminate 1
-  - cd ../platform/cordova
-  - cordova build android
 cache:
   directories:
   - www/node_modules
