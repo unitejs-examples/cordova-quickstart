@@ -16,8 +16,8 @@ script:
   - gulp e2e || travis_terminate 1
   - gulp build --buildConfiguration=prod || travis_terminate 1
   - gulp e2e || travis_terminate 1
-  - gulp platform-cordova-dev --buildConfiguration=prod || travis_terminate 1
   - gulp platform-cordova-theme --buildConfiguration=prod || travis_terminate 1
+  - gulp platform-cordova-dev --buildConfiguration=prod || travis_terminate 1
 cache:
   directories:
   - www/node_modules

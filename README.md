@@ -10,8 +10,8 @@ This should perform the following steps with travis:
 * E2E Test (Development)
 * Build (Production)
 * E2E Test (Production)
-* Platform Dev for Cordova
 * Platform Theme for Cordova
+* Platform Dev for Cordova
 
 [![Build Status][travis-image]][travis-url]
 
