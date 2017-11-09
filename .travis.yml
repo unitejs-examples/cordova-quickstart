@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "8"
 before_install:
-  - npm install -g unitejs-cli@1.6.4
+  - npm install -g unitejs-cli
   - npm install -g gulp
   - npm install -g cordova
   - unite configure --profile=ReactTypeScript --title="Cordova QuickStart" --packageName=unitejs-cordova-quickstart --outputDirectory=./
